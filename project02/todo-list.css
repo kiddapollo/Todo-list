@@ -1,0 +1,15 @@
+h1{
+    font-style:oblique;
+    font-size:xx-large;
+    text-align: center;
+    text-decoration:underline;
+}
+
+p{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    font-style: inherit;
+    font-size: 120%;
+    vertical-align: baseline;
+}
