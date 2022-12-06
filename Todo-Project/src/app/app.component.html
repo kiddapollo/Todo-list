@@ -1,6 +1,13 @@
 <main>
   <header>
-    <h1></h1>
+    <h1>Todo</h1>
+    <h2>What would you like to accomplished</h2>
   </header>
+  <div class="add-todo-container">
+    <input type="text" class="input" placeholder="Your task starts here!!" />
+    <button onclick="addTask()" class="add-button">Add Task</button>
+  </div>
+  <router-outlet></router-outlet>
+  <app-nav></app-nav>
 </main>
-<router-outlet></router-outlet>
+<app-footer></app-footer>

@@ -1,0 +1,11 @@
+nav {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 24px;
+    color: #242424; 
+}
