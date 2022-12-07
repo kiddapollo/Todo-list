@@ -4,7 +4,7 @@ For this project, you will be building an application that allows users to organ
 --- 
 ## Todo List
 - [ ] Correctly displays all of the current tasks marked as "todo"
-- [ ] Contains a button that allows for the addition of a new todo item
+- [X] Contains a button that allows for the addition of a new todo item
 
 ## Todo Item
 - [ ] Contains a button that allows for the editing of the todo item
@@ -23,4 +23,4 @@ list
 - [ ] Any images used should be sized appropriately and have alternative text displayed should the image fail to render
 - [ ] Collaboration with partner(s) to meet required deliverables
 - [ ] Proper use of GitHub Branches to maintain the versioning of your webpage
-- [ ] All of the finished project code should be present on the main/master branch upon project completion
+- [X] All of the finished project code should be present on the main/master branch upon project completion
