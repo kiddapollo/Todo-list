@@ -7,6 +7,7 @@ import { TodoCompletedComponent } from './todo-completed/todo-completed.componen
 import { TodoWorkingComponent } from './todo-working/todo-working.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
+import { TaskComponent } from './task/task.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { FooterComponent } from './footer/footer.component';
     TodoWorkingComponent,
     NavComponent,
     FooterComponent,
+    TaskComponent,
   ],
   imports: [
     BrowserModule,
