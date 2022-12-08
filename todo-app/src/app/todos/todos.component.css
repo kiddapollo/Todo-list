@@ -1,44 +1,5 @@
-.header {
-    background-color: gray;
-
-    padding: 100px;
-    text-align: center;
-    color: white;
-    text-shadow: 2px 2px 2px rgb(0, 0, 0);
-}
-
-.header__title {
-    font-size: 3em;
-    font-weight: bold;
-}
-
-.todo-add-form__title {
-    font-size: 1.5em;
-    padding-bottom: 20px; 
-}
-
-.todo-add-form__input {
-    width: 100%;
-    border: 1px solid black;
-    border-radius: 6px;
-    text-align: center;
-}
 
 
-
-
-.todo-add-form__control {
-    display: flex;
-    gap: 10px;
-}
-
-.todo-add-form {
-    padding: 25px;
-    border-radius: 6px;
-    margin-top: -70px;
-    background-color: white;
-    box-shadow: 0px 2px 12px rgb(0, 0, 0.8);
-}
 
 .todos-container {
     max-height: 55vh;
@@ -103,7 +64,7 @@
 }
 
 .todo-item.completed .todo-item__check {
-    background-color: green;
+    background-color: #E1B42B;
 }
 
 .todo-item.completed .todo-item__check .icon {
@@ -116,6 +77,7 @@
     gap: 10px;
     position: absolute;
     right: 0;
+    margin-right: 5px;
 }
 
 .icon--edit {
@@ -145,6 +107,9 @@
 }
 
 .todo-item:hover .todo-item__edit-delete-icons .icon {
-    transition-delay: 0.5s;
+    transition-delay: 0.3s;
 }
+
+
+
 
