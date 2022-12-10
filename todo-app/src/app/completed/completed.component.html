@@ -1,0 +1,14 @@
+<main>
+    <section>
+        <h3>Completed</h3>
+        <div class="completedList" *ngFor="let name of completedList; let i = index";>
+            <div class="content">
+             Go to Stop & Shop and pick up groceries!
+            </div>
+            <div class="todo-item__edit-delete-icons">
+                <i onClick="editTasks()" class="editTask" src="../../assets/edit.png" alt=""></i>
+                <i onClick="deleteTask()" class="deleteTask" src="../../assets/delete.png" alt=""></i>
+            </div>
+        </div>
+    </section>
+</main>
